@@ -14,7 +14,9 @@ fs.readFile("database/user.json", "utf8", (err, data) => {
     }
 }); */      // bu author js ga tegisli code 
 
-// MONGODB CONNECT
+// MONGODB call
+
+const db = require("./server").db();
 
 // 1: kirish codelari
 app.use(express.static("public"));
