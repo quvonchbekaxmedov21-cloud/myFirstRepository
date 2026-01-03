@@ -1,8 +1,32 @@
 /* console.log("train task ishga tushdi"); */
 
+// TASK D
+
+function sozAjratish(word1, word2) {
+const ajratish1 = [...word1].sort().join('');
+const ajratish2 = [...word2].sort().join('');
+
+return ajratish1 === ajratish2;
+};
+
+const result = sozAjratish("olmaxon", "xonmaol");
+console.log("natija:", result)
+
+const result1 = sozAjratish("mitgroup", "groupmit");
+console.log("natija:", result1)
+
+const result2 = sozAjratish("bolalar", "lalalala");
+console.log("natija:", result2)
+
+
+
+
+/* console.log(sozAjratish("olmaxon", "xonmaol")); */
+
+
 // TASK C
 
-class Shop {
+/* class Shop {
   constructor(non, lagmon, cola) {
     this.non = non;
     this.lagmon = lagmon;
@@ -77,7 +101,7 @@ shop.qabul("non", 8);
 shop.qabul("fanta", 4);
 
 shop.qoldiq();
-
+ */
 
 
 // TASK B
