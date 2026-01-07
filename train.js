@@ -1,8 +1,29 @@
 /* console.log("train task ishga tushdi"); */
 
+// TASK E
+
+function sozOzgartirish(word) {
+  return [...word].reverse().join('');
+
+}
+
+const result = sozOzgartirish("computer");
+console.log("natija:", result)
+
+const result1 = sozOzgartirish("good afternoon brother");
+console.log("natija:", result1)
+
+const result2 = sozOzgartirish("traktor");
+console.log("natija:", result2)
+
+const result3 = sozOzgartirish("what is your name?");
+console.log("natija:", result3)
+
+
+
 // TASK D
 
-function sozAjratish(word1, word2) {
+/* function sozAjratish(word1, word2) {
 const ajratish1 = [...word1].sort().join('');
 const ajratish2 = [...word2].sort().join('');
 
@@ -17,7 +38,7 @@ console.log("natija:", result1)
 
 const result2 = sozAjratish("bolalar", "lalalala");
 console.log("natija:", result2)
-
+ */
 
 
 
