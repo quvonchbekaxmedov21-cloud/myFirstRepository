@@ -1,7 +1,32 @@
 /* console.log("train task ishga tushdi"); */
 
-// TASK E
 
+// TASK F
+
+function findDoublers(word) {
+  for (let i = 0; i < word.length; i++) {
+    const currentLetter = word[i];
+
+    if (word.indexOf(currentLetter) !== word.lastIndexOf(currentLetter)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+const result = findDoublers("hello");
+console.log("natija:", result)
+
+const result1 = findDoublers("computer");
+console.log("natija:", result1)
+
+const result2 = findDoublers("apple");
+console.log("natija:", result2)
+
+const result3 = findDoublers("return");
+console.log("natija:", result3)
+// TASK E
+/* 
 function sozOzgartirish(word) {
   return [...word].reverse().join('');
 
@@ -17,8 +42,7 @@ const result2 = sozOzgartirish("traktor");
 console.log("natija:", result2)
 
 const result3 = sozOzgartirish("what is your name?");
-console.log("natija:", result3)
-
+console.log("natija:", result3) */
 
 
 // TASK D
